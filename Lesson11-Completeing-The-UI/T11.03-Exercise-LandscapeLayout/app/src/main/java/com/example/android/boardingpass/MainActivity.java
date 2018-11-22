@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
 
         mBinding.textViewPassengerName.setText(info.passengerName);
         // TODO (7) Use the flightInfor attribute in mBinding below to get the appropiate text Views
-        mBinding.textViewOriginAirport.setText(info.originCode);
+        mBinding.flightInfo.textViewOriginAirport.setText(info.originCode);
         mBinding.textViewFlightCode.setText(info.flightCode);
         mBinding.textViewDestinationAirport.setText(info.destCode);
 
